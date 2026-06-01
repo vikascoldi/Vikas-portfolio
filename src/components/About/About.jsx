@@ -85,7 +85,7 @@ export default function About() {
                     </span>
                   </div>
                   <ul className="space-y-1.5 mt-4">
-                    {exp.points.slice(0, 3).map((point, j) => (
+                    {exp.points.slice(0, 6).map((point, j) => (
                       <li key={j} className="flex items-start gap-2 text-xs text-muted">
                         <span className="text-accent mt-0.5 flex-shrink-0">▸</span>
                         {point}

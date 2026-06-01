@@ -60,7 +60,7 @@ export default function Projects() {
                     {project.title}
                   </h3>
                   <div className="flex flex-wrap gap-2">
-                    {project.tags.slice(0, 3).map((tag) => (
+                    {project.tags.slice(0, 5).map((tag) => (
                       <span
                         key={tag}
                         className="font-mono text-[10px] tracking-widest uppercase text-muted border border-border px-2 py-0.5"

@@ -30,7 +30,7 @@ export default function Skills() {
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
   return (
-    <section id="skills" className="py-32 px-6 bg-surface/30">
+    <section id="skills" className="px-6  bg-surface/30">
       <div className="max-w-7xl mx-auto" ref={ref}>
         {/* Section label */}
         <motion.div
@@ -79,7 +79,7 @@ export default function Skills() {
             animate={isInView ? 'visible' : 'hidden'}
           >
             <motion.h3 variants={fadeUp} className="font-mono text-xs text-accent tracking-widest uppercase mb-8">
-              Backend (Learning)
+              Backend (Intermediate)
             </motion.h3>
             <div className="space-y-6">
               {skills.backend.map((skill, i) => (

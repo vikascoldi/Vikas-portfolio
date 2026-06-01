@@ -66,7 +66,7 @@ export default function Hero() {
             transition={{ delay: 0.7, duration: 0.6 }}
             className="max-w-sm font-body text-muted leading-relaxed text-sm md:text-base"
           >
-            A <span className="text-text">Frontend Developer</span> passionate about crafting{' '}
+            A <span className="text-text">Frontend Developer</span> passionate about crafting {' '}
             <span className="text-text">fast, responsive & scalable</span> web experiences with React & MERN.
           </motion.p>
 

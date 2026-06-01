@@ -27,7 +27,7 @@ export default function Navbar() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-          scrolled ? 'bg-bg/80 backdrop-blur-xl border-b border-border' : ''
+          scrolled ? 'bg-bg/80 backdrop-blur-xl border-b border-border' :''
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -63,7 +63,7 @@ export default function Navbar() {
 
           {/* Mobile Hamburger */}
           <button
-            className="md:hidden flex flex-col gap-1.5 p-2"
+            className=" md:hidden flex flex-col gap-1.5 p-2"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             <span className={`block h-px w-6 bg-text transition-all ${menuOpen ? 'rotate-45 translate-y-2' : ''}`} />
